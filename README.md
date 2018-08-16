@@ -21,7 +21,8 @@ Use this instructions to install the wallet,  and setup single masternode on Win
 	
 ## 2. Masternode Setup
 
-### 2.1 Send the coins to your wallet. Open Console (Tools => Debug console)
+### 2.1 Send the coins to your wallet
+Open Console (Tools => Debug console)
 1. Create a new address. `getnewaddress MN1`
 2. Send exactly 1000.00 coins to the generated address. (Send all coins in one transaction, fees should be paid additionally on top on 1000 amount)
 3. Wait for the at least 1 confirmation of the transaction.
