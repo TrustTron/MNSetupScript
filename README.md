@@ -1,4 +1,4 @@
-# ![Trustron Coin](http://54.36.159.72:8080/images/logo.png)
+# Trustron Coin
 
 Use this instructions to install the wallet,  and setup single masternode on Windows machine (HOT wallet/s).
 
