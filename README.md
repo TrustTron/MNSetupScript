@@ -4,9 +4,9 @@ Use this instructions to install the wallet,  and setup single masternode on Win
 
 
 ## Table of Content
-* [1. Desktop Wallet Preparation](#1-desktop-wallet-preparation-)
-* [2. Masternode Setup](#2-masternode-setup-)
-	* [2.1 Send the coins to your wallet](#21-send-the-coins-to-your-wallet)
+* [1. Desktop Wallet Preparation](#1-desktop-wallet-preparation)
+* [2. Masternode Setup](#2-masternode-setup)
+	* [2.1 Send the coins to your wallet](#21-send-the-coins-to-your-wallet-)
 	* [2.2 VPS setup](#22-vps-setup)
 	* [2.3 Add masternode on the desktop wallet](#23-add-masternode-on-the-desktop-wallet)
 	* [2.4 Automatic Masternode Setup](#24-automatic-masternode-setup)
