@@ -16,7 +16,7 @@ Use this instructions to install the wallet,  and setup single masternode on Win
 ## 1. Desktop Wallet Preparation
 
 ### 1.1 Setup the wallet
-1. Download the [wallet](https://github.com/TrustTron/TrustronCoin/files/2293487/windows.zip)
+1. Download the [wallet](https://github.com/TrustTron/TrustronCoin/files/2294685/windows.zip)
 2. Start the wallet and wait for the sync. (30min to 10h depending on the number of the connections)
 	
 ## 2. Masternode Setup
@@ -49,13 +49,13 @@ Open Console (Tools => Debug console)
 3. Add new line and construct the new Masternode configuration by copying your masternode private key, transaction id and transaction index from step 2.1.4 and 2.1.5 (see below for example)
    
   *It should look like:* 
-  MN1 [IP address]:39811 masternodeprivkey [1000 desposit transaction id. 'masternode outputs'] [1000 desposit transaction index. 'masternode outputs']
+  MN1 [IP address]:39821 masternodeprivkey [1000 desposit transaction id. 'masternode outputs'] [1000 desposit transaction index. 'masternode outputs']
    
   *For example:* 
-  `MN1 192.168.1.1:39811 93HaYBVUCYjEMeeH1Y4sBGLALQZE1Yc1K64xiqgX37tGBDQL8Xg 2bcd3c84c84f87eaa86e4e56834c92927a07f9e18718810b92e0d0324456a67c 0`
+  `MN1 192.168.1.1:39821 93HaYBVUCYjEMeeH1Y4sBGLALQZE1Yc1K64xiqgX37tGBDQL8Xg 2bcd3c84c84f87eaa86e4e56834c92927a07f9e18718810b92e0d0324456a67c 0`
 
    - Label: `MN1`
-   - IP Address and port: `192.168.1.1:39811`
+   - IP Address and port: `192.168.1.1:39821`
    - Private key: `93HaYBVUCYjEMeeH1Y4sBGLALQZE1Yc1K64xiqgX37tGBDQL8Xg`
    - Transaction ID: `629dc27b721f57c97550868cac9f7e41049d12cce8ac344732b7f74a9fc81815`
    - Output index:  `0`

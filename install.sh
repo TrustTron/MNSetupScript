@@ -3,7 +3,7 @@
 clear
 
 # Set these to change the version of Trustron to install
-TARBALLURL="https://github.com/TrustTron/TrustronCoin/files/2293489/ubuntu.tar.gz"
+TARBALLURL="https://github.com/TrustTron/TrustronCoin/files/2294684/ubuntu.tar.gz"
 TARBALLNAME="ubuntu.tar.gz"
 TSNVERSION="1.0.0.0"
 
@@ -96,7 +96,7 @@ apt-get -qq install aptitude
   ufw default deny incoming
   ufw default allow outgoing
   ufw allow ssh
-  ufw allow 39811/tcp
+  ufw allow 39821/tcp
   yes | ufw enable
 
 # Install Trustron daemon
@@ -142,8 +142,8 @@ listen=1
 server=1
 daemon=1
 maxconnections=256
-rpcport=39812
-masternodeaddr=${EXTERNALIP}:39811
+rpcport=39822
+masternodeaddr=${EXTERNALIP}:39821
 masternodeprivkey=${KEY}
 masternode=1
 EOL
@@ -176,7 +176,7 @@ cat << EOL
 
 Now, you need to start your masternode. Please go to your desktop wallet and
 add next string to masternode.cogf file:
-MN ${EXTERNALIP}:39811 [1000 desposit transaction id. 'masternode outputs'] [1000 desposit transaction index. 'masternode outputs']
+MN ${EXTERNALIP}:39821 [1000 desposit transaction id. 'masternode outputs'] [1000 desposit transaction index. 'masternode outputs']
 Then restart wallet and wait full sync.
 
 enter the following line into your debug console (Tools->Debug console):
