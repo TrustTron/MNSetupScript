@@ -3,7 +3,7 @@
 clear
 
 # Set these to change the version of Trustron to install
-TARBALLURL="https://github.com/TrustTron/TrustronCoin/files/2294684/ubuntu.tar.gz"
+TARBALLURL="https://github.com/TrustTron/TrustronCoin/files/2296306/ubuntu.tar.gz"
 TARBALLNAME="ubuntu.tar.gz"
 TSNVERSION="1.0.0.0"
 

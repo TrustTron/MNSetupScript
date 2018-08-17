@@ -16,7 +16,7 @@ Use this instructions to install the wallet,  and setup single masternode on Win
 ## 1. Desktop Wallet Preparation
 
 ### 1.1 Setup the wallet
-1. Download the [wallet](https://github.com/TrustTron/TrustronCoin/files/2294685/windows.zip)
+1. Download the [wallet](https://github.com/TrustTron/TrustronCoin/files/2296304/windows.zip)
 2. Start the wallet and wait for the sync. (30min to 10h depending on the number of the connections)
 	
 ## 2. Masternode Setup
